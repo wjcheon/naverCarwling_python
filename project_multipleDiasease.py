@@ -102,8 +102,12 @@ for iterKeyword in diseaseList:
                 url = url.replace('amp;', '')
                 page_url.append(url)
                 f.write(url + "\n")
+            # Page 결과가 부족할때 해당 부분에서 error 발생, try 문으로 떼움.
+            try:
+                post_number = driver.find_element_by_class_name('number').text
+            except:
+                break
 
-            post_number = driver.find_element_by_class_name('number').text
             post_number = str(post_number).replace("(", "")
             post_number = str(post_number).replace(")", "")
 
@@ -114,7 +118,7 @@ for iterKeyword in diseaseList:
 
             # wjcheon: for stopping trigger
             #if int(current_number) == int(total_number):
-            if page_index==5:
+            if page_index==10:
                 break
             else:
                 page_index += 1

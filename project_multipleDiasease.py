@@ -16,6 +16,13 @@ import pandas as pd
 import numpy as np
 import math
 
+## PARAMETERS
+endSearchingPage = 5
+# 크롤링 시작 일자: 날짜는 반드시 0000.00.00 자릿수를 맞춰줘야 한다! (2021.08.18)
+f = '2021.07.01'
+# 크롤링 종료 일자
+t = '2021.07.31'
+
 dbPath = "/Users/wjcheon/Dropbox/WeKnew/naver_kin_crawling-master/질병목록.xlsx"
 df = pd.read_excel(dbPath, engine='openpyxl')
 diseaseList = df.iloc[:, 1]
@@ -61,11 +68,7 @@ for iterKeyword in diseaseList:
         driver.get('https://kin.naver.com/search/list.nhn?query=' + get_keyword(keyword))
         time.sleep(uniform(0.1, 1.0)) # trick for blocking
 
-        page_index = 2
-        # 크롤링 시작 일자: 날짜는 반드시 0000.00.00 자릿수를 맞춰줘야 한다! (2021.08.18)
-        f = '2021.07.01'
-        # 크롤링 종료 일자
-        t = '2021.07.31'
+        page_index = 1 # 1 is initial value
         period_txt = "&period=" + f + ".%7C" + t + "."
 
         _sort_kind = sort_kind(2)
@@ -75,7 +78,10 @@ for iterKeyword in diseaseList:
         # URL 저장
         f = open("result/url_list" + "_" + keyword.replace(' ', '+') + "_" + date + ".txt", 'w')
         page_url = []
+        counter2 = 0
         while True:
+            counter2 += 1
+            print("{} th url is collected !!".format(counter2))
             time.sleep(uniform(0.01, 1.0))
             # Correct:https://kin.naver.com/search/list.nhn?sort=date&query=%EB%8B%B9%EB%87%A8&period=2021.07.01.%7C2021.07.31.&section=kin&page=2
             # Fail:   https://kin.naver.com/search/list.nhn?sort=date&query=%EB%8B%B9%EB%87%A8&period=2021.7.01.%7C2021.7.31.&section=kin&page=2
@@ -106,8 +112,9 @@ for iterKeyword in diseaseList:
             total_number = post_number.split('/')[1]
             total_number = total_number.replace(',', '')
 
+            # wjcheon: for stopping trigger
             #if int(current_number) == int(total_number):
-            if page_index==10:
+            if page_index==5:
                 break
             else:
                 page_index += 1
@@ -122,7 +129,7 @@ for iterKeyword in diseaseList:
             sheet.cell(row=1, column=j).fill = PatternFill(start_color='808080', end_color='808080', fill_type='solid')
         count=0
         for i in page_url:
-
+            print("{} th URL is under analyzing..")   # print status
             try:
                 driver.get(i)
                 title = driver.find_element_by_class_name('title').text  # 제목
@@ -157,5 +164,6 @@ for iterKeyword in diseaseList:
             print(count)
 
         wb.save(filename)
+        print("DB:{} was successfully generated !!".format(iterKeyword))
     else:
         continue

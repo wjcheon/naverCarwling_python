@@ -16,8 +16,8 @@
       <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="200">
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="13" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -28,8 +28,8 @@
       <file leaf-file-name="project_multipleDiasease.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project_multipleDiasease.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="464">
+              <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -59,6 +59,7 @@
     <findStrings>
       <find>for iterKeyword in diseaseList\:\n    print\(iterKeyword\)</find>
       <find>page_index</find>
+      <find>sort_kind</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -220,11 +221,26 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>_sort_kind</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(page_url)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>'https://kin.naver.com/search/list.nhn?' + &quot;&amp;sort=&quot; + _sort_kind + '&amp;query=' + get_keyword(keyword) + period_txt + &quot;&amp;section=kin&quot; + &quot;&amp;page=&quot; + str(page_index)</expression-string>
         <language-id>Python</language-id>
@@ -279,8 +295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="200">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="13" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -289,8 +305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project_multipleDiasease.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="464">
+          <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

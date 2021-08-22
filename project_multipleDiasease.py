@@ -19,9 +19,9 @@ import math
 ## PARAMETERS
 endSearchingPage = 5
 # 크롤링 시작 일자: 날짜는 반드시 0000.00.00 자릿수를 맞춰줘야 한다! (2021.08.18)
-f = '2021.07.01'
+stDate = '2021.07.01'
 # 크롤링 종료 일자
-t = '2021.07.31'
+endDate = '2021.07.31'
 
 dbPath = "/Users/wjcheon/Dropbox/WeKnew/naver_kin_crawling-master/질병목록.xlsx"
 df = pd.read_excel(dbPath, engine='openpyxl')
@@ -69,9 +69,9 @@ for iterKeyword in diseaseList:
         time.sleep(uniform(0.1, 1.0)) # trick for blocking
 
         page_index = 1 # 1 is initial value
-        period_txt = "&period=" + f + ".%7C" + t + "."
+        period_txt = "&period=" + stDate + ".%7C" + endDate + "."
 
-        _sort_kind = sort_kind(2)
+        _sort_kind = sort_kind(3) # 3 is 정확도순
         date = str(datetime.now()).replace('.', '_')
         date = date.replace(' ', '_')
 
@@ -81,7 +81,7 @@ for iterKeyword in diseaseList:
         counter2 = 0
         while True:
             counter2 += 1
-            print("{} th url is collected !!".format(counter2))
+            print("{} th page URL is collected !!".format(counter2))
             time.sleep(uniform(0.01, 1.0))
             # Correct:https://kin.naver.com/search/list.nhn?sort=date&query=%EB%8B%B9%EB%87%A8&period=2021.07.01.%7C2021.07.31.&section=kin&page=2
             # Fail:   https://kin.naver.com/search/list.nhn?sort=date&query=%EB%8B%B9%EB%87%A8&period=2021.7.01.%7C2021.7.31.&section=kin&page=2
@@ -118,7 +118,7 @@ for iterKeyword in diseaseList:
                 break
             else:
                 page_index += 1
-
+        print("The {} numbers of contents were collected !!".format(len(page_url)))
         filename = 'result/' + keyword.replace(' ', '.') + "_" + date + "_crawling_result.xlsx"
 
         wb = Workbook()
@@ -129,7 +129,7 @@ for iterKeyword in diseaseList:
             sheet.cell(row=1, column=j).fill = PatternFill(start_color='808080', end_color='808080', fill_type='solid')
         count=0
         for i in page_url:
-            print("{} th URL is under analyzing..")   # print status
+
             try:
                 driver.get(i)
                 title = driver.find_element_by_class_name('title').text  # 제목
@@ -137,7 +137,8 @@ for iterKeyword in diseaseList:
 
                 title_tokenizer = okt.morphs(title) # title 과 keyword를 이용해서 screening을 함
                 # if keyword not in title_tokenizer:
-                if any(keyword not in s for s in title_tokenizer):
+                if not any(keyword in s for s in title_tokenizer):
+                    print('pass: by a title')
                     continue
 
             except:
@@ -158,10 +159,11 @@ for iterKeyword in diseaseList:
                     else:
                         sheet.append(["", "", t])
             except:
+                print('pass: by a answer')
                 continue
 
             count += 1
-            print(count)
+            print("{} th contents is under analyzing..".format(count))  # print status
 
         wb.save(filename)
         print("DB:{} was successfully generated !!".format(iterKeyword))

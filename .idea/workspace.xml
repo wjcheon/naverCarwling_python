@@ -3,7 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="eaf93f7d-a5ae-47b4-a443-dc354bb4cece" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/project_multipleDiasease.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_multipleDiasease.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/url_list_갑상선_2021-08-22_22:14:45_773353.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result/url_list_갑상선_2021-08-22_22:14:45_773353.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_갑상선_2021-08-22_22:14:45_773353.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_고지혈증_2021-08-22_21:34:51_213862.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_고혈압_2021-08-22_21:29:31_676639.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_고혈압_2021-08-23_00:21:26_879813.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_당뇨_2021-08-22_21:23:35_177927.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_비만약제_2021-08-22_22:18:05_641686.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_비만약제_2021-08-22_23:38:40_643666.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_비만약제_2021-08-22_23:40:04_985087.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_비만약제_2021-08-23_00:19:23_495091.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_약물부작용+_2021-08-23_00:25:47_849957.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_약물부작용+_2021-08-23_00:26:49_808744.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/갑상선_2021-08-22_22:14:45_773353_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/고지혈증_2021-08-22_21:34:51_213862_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/고혈압_2021-08-22_21:29:31_676639_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/고혈압_2021-08-23_00:21:26_879813_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/당뇨_2021-08-22_21:23:35_177927_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/비만약제_2021-08-23_00:19:23_495091_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/약물부작용._2021-08-23_00:25:47_849957_crawling_result.xlsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +46,8 @@
       <file leaf-file-name="project_multipleDiasease.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project_multipleDiasease.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+            <state relative-caret-position="446">
+              <caret line="120" column="54" lean-forward="true" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -193,11 +210,11 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23809524" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50030136" side_tool="true" weight="0.32923076" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32923076" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32923076" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32923076" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996986" visible="true" weight="0.32923076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32923076" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -306,8 +323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project_multipleDiasease.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+        <state relative-caret-position="446">
+          <caret line="120" column="54" lean-forward="true" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

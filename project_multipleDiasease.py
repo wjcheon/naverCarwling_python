@@ -116,9 +116,9 @@ for iterKeyword in diseaseList:
             total_number = post_number.split('/')[1]
             total_number = total_number.replace(',', '')
 
-            # wjcheon: for stopping trigger
-            #if int(current_number) == int(total_number):
-            if page_index==10:
+
+            if int(current_number) == int(total_number):
+            #if page_index==10:                         # wjcheon: for stopping trigger
                 break
             else:
                 page_index += 1

@@ -11,14 +11,6 @@ from random import *
 # tokenizer
 from konlpy.tag import Okt  # Tokenizer
 okt = Okt()
-# data import
-import pandas as pd
-import numpy as np
-
-dbPath = "/Users/wjcheon/Dropbox/WeKnew/naver_kin_crawling-master/질병목록.xlsx"
-df = pd.read_excel(dbPath, engine='openpyxl')
-diseaseList = df.iloc[:, 1]
-diseaseList = np.array(diseaseList)
 
 # firefox 버전
 profile = webdriver.FirefoxProfile()

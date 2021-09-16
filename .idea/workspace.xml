@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaf93f7d-a5ae-47b4-a443-dc354bb4cece" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_multipleDiasease.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_multipleDiasease.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/url_list_갑상선_2021-08-22_22:14:45_773353.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/url_list_고지혈증_2021-08-22_21:34:51_213862.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/url_list_고혈압_2021-08-22_21:29:31_676639.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/url_list_고혈압_2021-08-23_00:21:26_879813.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/url_list_당뇨_2021-08-22_21:23:35_177927.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/url_list_비만약제_2021-08-22_22:18:05_641686.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/url_list_비만약제_2021-08-22_23:38:40_643666.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/url_list_비만약제_2021-08-22_23:40:04_985087.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/url_list_비만약제_2021-08-23_00:19:23_495091.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/url_list_약물부작용+_2021-08-23_00:25:47_849957.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/url_list_약물부작용+_2021-08-23_00:26:49_808744.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/갑상선_2021-08-22_22:14:45_773353_crawling_result.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/고지혈증_2021-08-22_21:34:51_213862_crawling_result.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/고혈압_2021-08-22_21:29:31_676639_crawling_result.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/고혈압_2021-08-23_00:21:26_879813_crawling_result.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/당뇨_2021-08-22_21:23:35_177927_crawling_result.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/비만약제_2021-08-23_00:19:23_495091_crawling_result.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/약물부작용._2021-08-23_00:25:47_849957_crawling_result.xlsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +17,7 @@
       <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="731">
               <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -46,10 +29,22 @@
       <file leaf-file-name="project_multipleDiasease.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project_multipleDiasease.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="120" column="54" lean-forward="true" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
+            <state relative-caret-position="2053">
+              <caret line="122" column="17" lean-forward="true" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frequency_example.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frequency_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+              <folding>
+                <element signature="e#80#109#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,6 +73,8 @@
       <find>for iterKeyword in diseaseList\:\n    print\(iterKeyword\)</find>
       <find>page_index</find>
       <find>sort_kind</find>
+      <find>endSearchingPage</find>
+      <find>result</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -91,6 +88,7 @@
       <list>
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/project.py" />
+        <option value="$PROJECT_DIR$/frequency_example.py" />
         <option value="$PROJECT_DIR$/project_multipleDiasease.py" />
       </list>
     </option>
@@ -104,7 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,11 +122,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,20 +209,20 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23809524" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50030136" side_tool="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996986" weight="0.32923076" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32923076" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32923076" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996986" visible="true" weight="0.32923076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32923076" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -267,6 +265,43 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frequency_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="e#80#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_multipleDiasease.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2010">
@@ -313,7 +348,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="731">
           <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -321,10 +356,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frequency_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="e#80#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project_multipleDiasease.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="120" column="54" lean-forward="true" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
+        <state relative-caret-position="2053">
+          <caret line="122" column="17" lean-forward="true" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

@@ -17,15 +17,15 @@ import numpy as np
 import math
 
 ## PARAMETERS
-endSearchingPage = 5
+endSearchingPage = 5  # this is option
 # 크롤링 시작 일자: 날짜는 반드시 0000.00.00 자릿수를 맞춰줘야 한다! (2021.08.18)
-stDate = '2021.07.01'
+stDate = '2020.07.01'
 # 크롤링 종료 일자
-endDate = '2021.07.31'
+endDate = '2021.07.01'
 
-dbPath = "/Users/wjcheon/Dropbox/WeKnew/naver_kin_crawling-master/질병목록.xlsx"
+dbPath = "/Users/wjcheon/Dropbox/WeKnew/naver_kin_crawling-master/질병목록.xlsx"  # 질병 목록이 들어 있는 파일이 있는 경로
 df = pd.read_excel(dbPath, engine='openpyxl')
-diseaseList = df.iloc[:, 1]
+diseaseList = df.iloc[4:, 1]
 diseaseList = np.array(diseaseList)
 
 # firefox 버전
@@ -117,8 +117,8 @@ for iterKeyword in diseaseList:
             total_number = total_number.replace(',', '')
 
 
-            if int(current_number) == int(total_number):
-            #if page_index==10:                         # wjcheon: for stopping trigger
+            #if int(current_number) == int(total_number):
+            if page_index==endSearchingPage:                         # wjcheon: for stopping trigger
                 break
             else:
                 page_index += 1

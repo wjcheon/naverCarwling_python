@@ -17,15 +17,15 @@ import numpy as np
 import math
 
 ## PARAMETERS
-endSearchingPage = 5  # this is option
+endSearchingPage = 10  # this is option !!!
 # 크롤링 시작 일자: 날짜는 반드시 0000.00.00 자릿수를 맞춰줘야 한다! (2021.08.18)
-stDate = '2020.07.01'
+stDate = '2020.09.01'
 # 크롤링 종료 일자
-endDate = '2021.07.01'
+endDate = '2021.09.01'
 
-dbPath = "/Users/wjcheon/Dropbox/WeKnew/naver_kin_crawling-master/질병목록.xlsx"  # 질병 목록이 들어 있는 파일이 있는 경로
+dbPath = "질병목록-소아.xlsx"  # 질병 목록이 들어 있는 파일이 있는 경로
 df = pd.read_excel(dbPath, engine='openpyxl')
-diseaseList = df.iloc[4:, 1]
+diseaseList = df.iloc[:, 1]
 diseaseList = np.array(diseaseList)
 
 # firefox 버전
@@ -86,15 +86,20 @@ for iterKeyword in diseaseList:
             # Correct:https://kin.naver.com/search/list.nhn?sort=date&query=%EB%8B%B9%EB%87%A8&period=2021.07.01.%7C2021.07.31.&section=kin&page=2
             # Fail:   https://kin.naver.com/search/list.nhn?sort=date&query=%EB%8B%B9%EB%87%A8&period=2021.7.01.%7C2021.7.31.&section=kin&page=2
             # Fail:   https://kin.naver.com/search/list.nhn?&sort=date&section=kin&query=%EB%8B%B9%EB%87%A8&period=2021.7.01.%7C2021.7.31.&page=2
-            # original
-            #driver.get('https://kin.naver.com/search/list.nhn?' + "&sort=" + _sort_kind + '&query=' + get_keyword(keyword) + period_txt + "&section=kin" + "&page=" + str(page_index))
-            # second
-            driver.get('https://kin.naver.com/search/list.nhn?' + "sort=" + _sort_kind + '&query=' + get_keyword(
-                keyword) + period_txt + "&section=kin" + "&page=" + str(page_index))
+            # # original
+            # driver.get('https://kin.naver.com/search/list.nhn?' + "&sort=" + _sort_kind + '&query=' + get_keyword(keyword) + period_txt + "&section=kin" + "&page=" + str(page_index))
+            # # second
+            # driver.get('https://kin.naver.com/search/list.nhn?' + "sort=" + _sort_kind + '&query=' + get_keyword(
+            #     keyword) + period_txt + "&section=kin" + "&page=" + str(page_index))
+            # Categorical address
+            # https://kin.naver.com/search/list.nhn?sort=none&query=%EC%86%8C%EC%95%84%EC%B2%AD%EC%86%8C%EB%85%84%EA%B3%BC&period=2020.09.01.%7C2021.09.01.&section=qna&dirId=70115&page=2
+            driver.get('https://kin.naver.com/search/list.nhn?' + "sort=" + _sort_kind +'&query=' + get_keyword(
+                keyword) + period_txt + "&section=qna&dirId=70115" + "&page=" + str(page_index))
             html = driver.page_source
             soup = BeautifulSoup(html, 'html.parser')
 
-            tags = soup.find_all('a', class_="_nclicks:kin.txt _searchListTitleAnchor")
+            #tags = soup.find_all('a', class_="_nclicks:kin.txt _searchListTitleAnchor")
+            tags = soup.find_all('a', class_="_nclicks:qna.txt _searchListTitleAnchor")
             for tag in tags:
                 url = str(tag).split(' ')[3]
                 url = url.replace('href=', "")

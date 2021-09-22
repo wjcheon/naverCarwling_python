@@ -4,6 +4,54 @@
     <list default="true" id="eaf93f7d-a5ae-47b4-a443-dc354bb4cece" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_multipleDiasease.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_multipleDiasease.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_갑상선_2021-08-23_16:20:39_991630.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_갑상선_2021-08-23_17:06:18_285887.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_갑상선_2021-08-23_17:08:06_918464.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_갑상선_2021-09-16_15:49:24_343140.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_고지혈증_2021-08-23_15:43:15_237327.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_고혈압_2021-08-23_10:55:13_619256.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_관절주사_2021-08-27_01:36:50_085960.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_노니_2021-08-24_20:59:28_775612.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_당뇨_2021-08-23_01:41:00_352775.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_돼지감자_2021-08-24_23:26:41_153429.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_발저림_2021-08-23_19:35:46_620100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_비만약제_2021-08-23_17:53:42_657945.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_비만약제_2021-08-23_20:51:13_757969.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_성장주사_2021-08-27_02:11:50_840444.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_소염진통제_2021-08-27_00:27:20_465270.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_손저림_2021-08-23_19:01:17_099319.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_약물부작용+_2021-08-23_00:40:39_318922.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_약물부작용+_2021-08-23_00:44:02_928068.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_여드름_2021-08-26_23:28:24_072754.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_영양제_2021-08-25_21:09:23_041247.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_전립선_2021-08-23_18:09:31_174163.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_지방간_2021-08-23_22:02:48_514576.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_커피_2021-08-25_21:46:24_423474.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_켈로이드_2021-08-26_22:38:49_842298.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_크릴세우_2021-08-25_16:16:34_305835.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/url_list_항히스타민_2021-08-27_00:56:14_002130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/갑상선_2021-08-23_17:08:06_918464_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/고지혈증_2021-08-23_15:43:15_237327_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/고혈압_2021-08-23_10:55:13_619256_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/관절주사_2021-08-27_01:36:50_085960_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/노니_2021-08-24_20:59:28_775612_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/당뇨_2021-08-22_19:10:21_632612_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/당뇨_2021-08-23_01:41:00_352775_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/돼지감자_2021-08-24_23:26:41_153429_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/발저림_2021-08-23_19:35:46_620100_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/비만약제_2021-08-23_17:53:42_657945_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/비만약제_2021-08-23_20:51:13_757969_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/소염진통제_2021-08-27_00:27:20_465270_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/손저림_2021-08-23_19:01:17_099319_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/약물부작용._2021-08-23_00:44:02_928068_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/여드름_2021-08-26_23:28:24_072754_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/영양제_2021-08-25_21:09:23_041247_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/전립선_2021-08-23_18:09:31_174163_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/지방간_2021-08-23_22:02:48_514576_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/커피_2021-08-25_21:46:24_423474_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/켈로이드_2021-08-26_22:38:49_842298_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/크릴세우_2021-08-25_16:16:34_305835_crawling_result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/항히스타민_2021-08-27_00:56:14_002130_crawling_result.xlsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +65,7 @@
       <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
+            <state relative-caret-position="376">
               <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -26,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project_multipleDiasease.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="project_multipleDiasease.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project_multipleDiasease.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2053">
-              <caret line="122" column="17" lean-forward="true" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+            <state relative-caret-position="179">
+              <caret line="94" column="186" selection-start-line="94" selection-start-column="186" selection-end-line="94" selection-end-column="186" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -38,10 +86,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="project_qna.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project_qna.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="144" column="95" selection-start-line="144" selection-start-column="95" selection-end-line="144" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="frequency_example.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frequency_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="510">
               <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
               <folding>
                 <element signature="e#80#109#0" expanded="true" />
@@ -72,9 +129,10 @@
     <findStrings>
       <find>for iterKeyword in diseaseList\:\n    print\(iterKeyword\)</find>
       <find>page_index</find>
-      <find>sort_kind</find>
       <find>endSearchingPage</find>
       <find>result</find>
+      <find>sort_kind</find>
+      <find>https://kin.naver.com/qna/detail.naver?d1id=7&amp;dirId=70115&amp;docId=381339187&amp;qb=7IaM7JWE7LKt7IaM64WE6rO8&amp;enc=utf8&amp;section=kin.qna&amp;rank=11&amp;search_sort=0&amp;spq=0</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -89,7 +147,10 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/project.py" />
         <option value="$PROJECT_DIR$/frequency_example.py" />
+        <option value="$PROJECT_DIR$/project_pediatrics.py" />
+        <option value="$PROJECT_DIR$/project_pediatric.py" />
         <option value="$PROJECT_DIR$/project_multipleDiasease.py" />
+        <option value="$PROJECT_DIR$/project_qna.py" />
       </list>
     </option>
   </component>
@@ -102,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,12 +184,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.project_multipleDiasease">
+  <component name="RunManager" selected="Python.project_qna">
     <configuration name="project" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="naver_kin_crawling" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,13 +244,53 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="project_pediatric" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="naver_kin_crawling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_pediatric.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="project_qna" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="naver_kin_crawling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_qna.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.project" />
       <item itemvalue="Python.project_multipleDiasease" />
+      <item itemvalue="Python.project_pediatric" />
+      <item itemvalue="Python.project_qna" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.project_qna" />
         <item itemvalue="Python.project_multipleDiasease" />
+        <item itemvalue="Python.project_pediatric" />
         <item itemvalue="Python.project" />
       </list>
     </recent_temporary>
@@ -204,12 +310,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23809524" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.198915" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50030136" side_tool="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996986" weight="0.32923076" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996986" visible="true" weight="0.32923076" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32923076" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32923076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -230,6 +335,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project_multipleDiasease.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project_multipleDiasease.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -237,7 +354,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -265,6 +382,43 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frequency_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="e#80#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_multipleDiasease.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -346,19 +500,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frequency_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="510">
           <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
           <folding>
             <element signature="e#80#109#0" expanded="true" />
@@ -366,13 +510,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_multipleDiasease.py">
+    <entry file="file://$PROJECT_DIR$/project_pediatrics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2053">
-          <caret line="122" column="17" lean-forward="true" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+        <state relative-caret-position="274">
+          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/url_list_비만약제_2021-08-23_20:51:13_757969.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/url_list_비만약제_2021-08-23_17:53:42_657945.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/url_list_소아청소년과_2021-09-19_08:55:30_499589.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_pediatric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="89" column="16" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_multipleDiasease.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="94" column="186" selection-start-line="94" selection-start-column="186" selection-end-line="94" selection-end-column="186" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_qna.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="144" column="95" selection-start-line="144" selection-start-column="95" selection-end-line="144" selection-end-column="95" />
         </state>
       </provider>
     </entry>
